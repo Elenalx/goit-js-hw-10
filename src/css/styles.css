@@ -26,3 +26,50 @@ input {
   border-color: blue;
   color: blue;
 }
+
+img {
+  width: 35px;
+  height: 25px;
+  border: 1px solid rgb(221, 221, 221);
+}
+#search-box:focus {
+  border-color: #2196f3;
+  
+}
+
+
+ul,li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.country-list {
+  font-size: 30px;
+}
+
+.country-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.country-img {
+  width: 40px;
+}
+
+.country-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.info-text {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+
+.value {
+  font-weight: 400;
+} 
